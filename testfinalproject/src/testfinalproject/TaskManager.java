@@ -60,13 +60,13 @@ public class TaskManager extends Implementation{
 			days[i] = sc.next();
 					
 			System.out.println("Enter calorie: ");			
-			//Gets int values and adds to the array
+			//Gets integer values and adds to the array
 			calorie[i] = sc.nextInt();	
 			System.out.println();
 			}		
 			//iterates to number of days and adding values to the array
 				System.out.println("Summary: ");
-			for(int i=0;i<number;i++) {
+					for(int i=0;i<number;i++) {
 				System.out.println(days[i]+ " "+ calorie[i]+ " ");
 				System.out.println();
 				
